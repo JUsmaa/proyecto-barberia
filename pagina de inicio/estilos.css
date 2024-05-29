@@ -1,0 +1,72 @@
+
+    /* font-family: italy; */ */
+
+
+
+
+
+    body{
+        background-color: rgb(233, 233, 233);
+        background-image: url(https://png.pngtree.com/background/20230519/original/pngtree-checkered-flooring-in-a-barber-shop-picture-image_2651920.jpg);
+        background-repeat: no-repeat; 
+        background-size: cover; 
+        
+}
+
+.pading{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.con{
+    width: 700px;
+    height: 700px;
+    position: relative;
+    top: 14px;
+    text-align: center;
+    color: wheat;
+    left: 350px; /* Mueve 50px hacia la derecha */
+font-weight: bold;
+font-size:36px ;
+font-family: italy;
+}
+
+   
+
+
+
+.button{
+    position: relative;
+    left: 580px; /* Mueve 50px hacia la derecha */
+    top: -520px; /* Mueve 50px hacia arriba */
+    color: wheat;
+ background-color: rgb(25, 26, 25);
+    width: 200px;
+    height: 60px;
+  
+    text-align: center;
+}
+
+
+.contenedor{
+    top: -920px; /* Mueve 50px hacia arriba */
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.servicios{
+    position: relative;
+    text-align: center;
+    color: wheat;
+    left: 350px; /* Mueve 50px hacia la derecha */
+    top: -326px; /* Mueve 50px hacia arriba */
+    left: -60px; /* Mueve 50px hacia la izquierda */
+
+
+font-weight: bold;
+font-size:36px ;
+font-family: italy;
+
+}
+
+

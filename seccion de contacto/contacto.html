@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>seccion de contacto</title>
+  <link rel="stylesheet" href="contacto.css">
+</head>
+<header>
+    <div class="contenedor">
+        <div>
+            <img src="img/pngwing.com.png" alt="" class="logo">
+        </div>
+        <div class="divTitulo">
+            <h1 class="titulo">
+                BarberClub
+            </h1>
+        </div>
+        <div >
+            <button class="BReservas"><h2 >Citas</h2></button>
+        </div>
+
+
+
+</header>
+<body>
+
+  
+  
+   
+    </nav>
+  
+
+  <main>
+    <section class="contact-section">
+      <div class="contact-info">
+        <h2>Ponerse En Contacto</h2>
+        <p>Podemos garantizar confiabilidad, tarifas económicas y tu corte de cabello financiado, lo que es más importante: tambien contamos con grabaciones y monitoreos 24/7 para la seguridad y comodidad de nuestros clientes.
+            <div class="contact-info">
+                <h2>Llamanos</h2>
+                <p>1 (234) 567-891</p>
+                <p>1 (234) 987-654</p>
+              </div>
+        </p>
+        <h1></h1>
+        <div class="social-icons">
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-linkedin"></i>
+          <i class="fa fa-youtube"></i>
+        </div>
+      </div>
+      
+      <div class="contact-info">
+        <h2>Localización</h2>
+        <p>bello, calle 123 #456<br>medellin,antioquia</p>
+      </div>
+      <div class="contact-form">
+        <h2>Contáctenos</h2>
+        <input type="text" placeholder="Tu nombre">
+        <input type="email" placeholder="Tu numero de celular ">
+        
+        
+
+        
+        <button>Enviar</button>
+      </div>
+      <div class="services">
+        <h2>Nuestros Mejores Servicios:</h2>
+        <ul>
+          <li>Transferencias locales</li>
+
+          
+    
+       <li><button type="submit">RESERVA TU CORTE AQUI</button></li> 
+          
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <div class="map-container">
+    <h2>Nuestra Ubicación</h2>
+    <div id="map"></div>
+  </div>
+
+  <script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
+  <script>
+    function initMap() {
+      var location = {lat: 40.7128, lng: -74.0060}; // Coordenadas de Nueva York
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 12,
+        center: location
+      });
+      var marker = new google.maps.Marker({
+        position: location,
+        map: map,
+        title: 'Nuestra Ubicación'
+      });
+    }
+  </script>
+
+  <footer>
+    
+    
+    
+    
+    <div class="contact-info">
+        
+        <p>1 (234) 567-891</p>
+        <p>1 (234) 987-654</p>
+      </div>
+  </footer>
+</body>
+</html>
